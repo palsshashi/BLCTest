@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.865328">
+<testcase classname="Register User" name="Successful Registration of a new user" time="24.865328">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User Navigate to Register Page.........................................passed
+And User enters Mandatory details...........................................passed
+Then Message is displayed "Successful"......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Successful Registration of a new user",
+        "description": "",
+        "id": "register-user;successful-registration-of-a-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7223315200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "RegistrationTest.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3219095100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Navigate to Register Page",
+            "match": {
+              "location": "RegistrationTest.user_Navigate_to_Register_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10783956600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Mandatory details",
+            "match": {
+              "location": "RegistrationTest.user_enters_Mandatory_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3638961100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Message is displayed \"Successful\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Successful",
+                  "offset": 22
+                }
+              ],
+              "location": "RegistrationTest.message_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register User",
+    "description": "",
+    "id": "register-user",
+    "keyword": "Feature",
+    "uri": "Registration.feature"
+  }
+]
